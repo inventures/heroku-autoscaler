@@ -4,8 +4,8 @@ var https = require('https');
 var _ = require('underscore');
 
 //heroku log api call
-var applicationName = 'hatchtv';
-var apiKey = '427684cd6debb0218a4a8089c296205a7c0c7c63';
+var applicationName = 'APP_NAME';
+var apiKey = 'API_KEY';
 
 //count requests for the last n milliseconds
 var periods = 60;
