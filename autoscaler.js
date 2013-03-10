@@ -11,9 +11,9 @@ var apiKey = 'API_KEY';
 var periods = 60;
 var interval = 1000;
 
-//how many requests per server
-var requestsPerServer = 750 * 60;
-var minServers = 1;
+//how many requests per server - CHANGE THESE VARIABLES
+var requestsPerServer = 750 * 60; 
+var minServers = 1; 
 var servers = 1;
 var threshold = 0.2;
 
